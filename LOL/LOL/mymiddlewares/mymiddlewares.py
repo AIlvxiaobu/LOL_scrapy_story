@@ -9,7 +9,7 @@ class zhongjianjian(object):
         print("************woshizhongjianjian**************************");
         if spider.name == "lol_hero_story":
             print ("PhantomJS is starting...")
-            chromedriver = "E:\星辰互联培训\chromedriver.exe"
+            chromedriver = "E:\***\chromedriver.exe"
             driver = webdriver.Chrome(chromedriver) #指定使用的浏览器
             driver.get(request.url)
             time.sleep(1)
